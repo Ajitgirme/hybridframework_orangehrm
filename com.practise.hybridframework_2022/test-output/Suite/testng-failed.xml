@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https:/&gt;/opensource-demo.orangehrmlive.com/"/>
+    <classes>
+      <class name="com.practise.hybridframework_2022.Tasecases.Logintc01">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginorangehrm"/>
+          <include name="setUp"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.practise.hybridframework_2022.Tasecases.Logintc01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
